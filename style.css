@@ -1,0 +1,393 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
+.logo img
+{
+width: 100px;
+height: 50px;
+margin-top: 20px;
+margin-left: 150px;
+}
+
+.heasers
+{
+    width: 400;
+    height: 700px;
+   
+}
+
+header
+{
+    height: 140;
+    background-color:rgb(247,247,247);
+    color: darkgreen;
+    width: 100;
+    height: 100;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+
+header ul {
+    list-style: none;
+    padding: 30;
+    margin: 70px;
+    margin-left: 700px;
+    margin-top: -30px;
+    
+  }
+
+  
+  header li {
+    display: inline;
+    font-size: large;
+    margin-right: 20px;
+    margin-right: 30px;
+    
+  }
+
+  
+  header a 
+  {
+    text-decoration: none;
+    margin-top: 20;
+    
+  }
+
+  .container-n1 {
+    background-color: rgb(247,247,247);
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 136px;
+    margin-top: -100;
+  }
+
+ .container-n1 .image {
+    display: flex;
+    gap: 50px; 
+  }
+  .container-n1 .image img {
+    margin: 0 5px; /* Marge horizontale autour de chaque image */
+  }
+
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+
+  .top-categories {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .top-categories button {
+    flex:1;
+    margin-left: 78px;
+    margin-right: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(243, 198, 182);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .top-categories button img {
+    width:  40px;
+    height: 40px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  .top-categories button span {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+
+
+  .programme-contenaire
+  {
+ 
+    width: 1265;
+    height: 200px;
+    background-color: rgb(254,114,76);
+  }
+   
+
+  .about
+  {
+    height: 200px;
+    width: 1265px
+  }
+
+  .menu
+  {
+    background-color:rgb(254,114,76) ;
+    width: 1265;
+    height: 190px;
+    margin-top: 20;
+  }
+
+
+    h2
+    {
+    margin-left: 150px;
+    font-size: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    }
+    h3
+    {
+    margin-left: 150px;
+    font-size: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    }
+    p
+    {
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+
+    }
+
+    span
+    {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;   
+    }
+
+    ul
+    {
+    margin-left: 150px;
+    margin-top: 20;
+    }
+
+    .cta-button
+    {
+    width: 1265;
+    height: 200;
+    background-color: rgb(255,213,202);
+    margin-left: 550px;
+    border: none;
+    color: aliceblue;
+    border-radius: 1rem;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50
+
+    }
+    .cta-button a
+    {
+    text-decoration: none;
+    }
+
+    .espace-cta-button 
+    {
+    width: 1265px;
+    margin-top: 30;
+        
+    }
+    .reservation
+    {
+    margin-left: 150px;
+    }
+    h4
+    {
+    margin-left: 150px;
+    font-size: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    }
+
+    .temoignages
+    {
+    background-color: rgb(254,114,76) ;    
+    
+    height: 200px;
+    }
+
+    iframe
+    {
+        margin-left: 150px;
+        margin-top: 25px;
+    }
+
+    input
+    {
+    width: 300px;
+    margin-top: 20;
+    }
+    
+    .contener-contact {
+        margin-left: 148px;
+        margin-right: 78px;
+        align-items: center;
+        margin-top: 40px;
+        
+      }
+      
+      .list {
+        display: inline-block;
+        vertical-align: top;
+        margin: 40px;
+        padding: 0;
+        list-style-type: none;
+      }
+      
+      .list li:first-child {
+        font-weight: bold;
+      }
+      
+      .list li {
+        margin-bottom: 5px;
+        margin-top: 30;
+      }
+      
+    .contener-contact a
+    {
+      text-decoration: none;
+    }
+    
+
+    .end
+    {
+        height: 75;
+        width: 75;
+        background-color: aliceblue;
+    }
+
+
+    /* Styles de base pour tous les écrans */
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    }
+  
+     /* Styles pour les écrans de largeur inférieure ou égale à 600 pixels */
+     @media screen and (max-width: 600px) {
+     body {
+      background-color: lightblue;
+     }
+  
+     h1 {
+      font-size: 24px;
+     }
+  
+    p {
+      line-height: 1.5;
+    }
+    }
+  
+     /* Styles pour les écrans de largeur entre 601 et 1200 pixels */
+     @media screen and (min-width: 601px) and (max-width: 1200px) {
+    body {
+      background-color: lightgray;
+    }
+  
+    h1 {
+      font-size: 32px;
+      color: navy;
+    }
+  
+    p {
+      line-height: 1.6;
+    }
+    }
+  
+     /* Styles pour les écrans de largeur supérieure à 1200 pixels */
+    @media screen and (min-width: 1201px) {
+    body {
+      background-color: rgb(255,255,255);
+    }
+  
+    h1 {
+      font-size: 48px;
+      color: rgb(255,255,255);
+      text-decoration: underline;
+    }
+  
+    p 
+    {
+      line-height: 1.8;
+    }
+    }
+
+    /* Extra small devices */
+     @media screen and (max-width: 576px) 
+     {
+    body {
+        background-color: rgb(255,255,255);
+    }
+    
+      h1 {
+        font-size: 48px;
+        color: rgb(255,255,255);
+        text-decoration: underline;
+    }
+    
+    p 
+    {
+        line-height: 1.8;
+    }
+    } 
+  
+    /* Small devices (landscape phones, 576px and up)  */
+    @media (min-width: 576px) and (max-width: 768px)
+    {
+    body
+    {
+            background-color: rgb(255,255,255);
+    }
+        
+    h1 
+    {
+     font-size: 48px;
+     color: rgb(255,255,255);
+     text-decoration: underline;
+    }
+        
+    p 
+    {
+    line-height: 1.8;
+    }
+    } 
+
+    /* Medium devices (tablets, 768px and up)  */
+    @media (min-width: 768px) and (max-width: 992px)
+    {
+    body
+    {
+    background-color: rgb(255,255,255);
+    }
+            
+    h1 {
+     font-size: 48px;
+     color: rgb(255,255,255);
+     text-decoration: underline;
+     }
+            
+    p 
+    {
+    line-height: 1.8;
+    }
+    } 
+    
